@@ -36,3 +36,30 @@ Each entity and its relationship are meticulously designed to encapsulate the bu
 - **Dunia Jaser and Alaa Shaheen**: Project Developers.
 
 ---
+## Interface Previews
+### Login Interface
+![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/ba29c9d3-15ca-4c8b-a606-a45d3f7fd70c)
+
+### Sign-Up Interface
+![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/9d99b1ca-8492-4aa8-ad5a-fc230d92513f)
+
+After successful login:
+
+### Main-View Interface
+![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/30ceb525-e066-4c99-ab34-de34ac08b16c)
+
+
+### Flights Interface
+![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/9311b064-0ca6-4845-b5f2-228288881abc)
+
+You can filter the flights by 'from' and 'to' destinations individually or apply both filters simultaneously to refine your search.
+![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/3d42579d-43c0-453c-be8a-bbe8ca7e611a)
+
+
+After booking, you'll need to choose your preferred payment method:
+![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/ce98a1a0-b8fc-4e4d-aaa3-794cb19b5c7c)
+
+
+### Viw Bookings Interface
+![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/7e959575-55b1-47b5-81fa-93ec4592886d)
+
