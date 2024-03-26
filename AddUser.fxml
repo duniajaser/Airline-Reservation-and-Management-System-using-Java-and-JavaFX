@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="436.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <ImageView fitHeight="60.0" fitWidth="77.0" layoutX="196.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@C:\Users\saad\Desktop\JAVA\Base Project\src\application\add-user.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="91.0" layoutY="128.0" prefHeight="24.0" prefWidth="97.0" text="User ID" />
+      <Label layoutX="91.0" layoutY="173.0" prefHeight="17.0" prefWidth="97.0" text="Password" />
+      <Label layoutX="91.0" layoutY="273.0" prefHeight="17.0" prefWidth="97.0" text="Gender" />
+      <Label layoutX="91.0" layoutY="239.0" prefHeight="17.0" prefWidth="97.0" text="Email" />
+      <Label layoutX="91.0" layoutY="350.0" prefHeight="17.0" prefWidth="97.0" text="Address" />
+      <Label layoutX="91.0" layoutY="317.0" prefHeight="17.0" prefWidth="97.0" text="Date Of Birth" />
+      <TextField fx:id="signUserIDtext" layoutX="196.0" layoutY="128.0" promptText="userid" />
+      <TextField fx:id="signUserEmailtext" layoutX="196.0" layoutY="235.0" promptText="email" />
+      <RadioButton fx:id="maleButton" layoutX="199.0" layoutY="273.0" mnemonicParsing="false" text="Male">
+         <toggleGroup>
+            <ToggleGroup fx:id="gender" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="femaleButton" layoutX="254.0" layoutY="273.0" mnemonicParsing="false" text="Female" toggleGroup="$gender" />
+      <TextField fx:id="signUserAddresstext" layoutX="196.0" layoutY="350.0" promptText="address" />
+      <PasswordField fx:id="signUserPasstext" layoutX="196.0" layoutY="169.0" promptText="password" />
+      <Button layoutX="128.0" layoutY="423.0" mnemonicParsing="false" onAction="#confirm" style="-fx-background-color: #FDF5E6;" text="Confirm">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <DatePicker fx:id="dateOfBirth" layoutX="196.0" layoutY="313.0" prefHeight="25.0" prefWidth="149.0" promptText="date of birth" />
+      <Label layoutX="91.0" layoutY="206.0" prefHeight="17.0" prefWidth="97.0" text="Name" />
+      <TextField fx:id="signUserNametext" layoutX="196.0" layoutY="202.0" promptText="username" />
+      <Button layoutX="222.0" layoutY="423.0" mnemonicParsing="false" onAction="#switchToLogInScene" prefHeight="26.0" prefWidth="68.0" style="-fx-background-color: #FDF5E6;" text="Return">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Button>
+      <Separator layoutX="89.0" layoutY="384.0" prefHeight="3.0" prefWidth="268.0" />
+      <Label fx:id="notficationLable" layoutX="170.0" layoutY="395.0" prefHeight="17.0" prefWidth="228.0" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Narrow" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
