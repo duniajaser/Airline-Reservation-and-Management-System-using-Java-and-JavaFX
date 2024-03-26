@@ -55,11 +55,14 @@ After successful login:
 You can filter the flights by 'from' and 'to' destinations individually or apply both filters simultaneously to refine your search.
 ![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/3d42579d-43c0-453c-be8a-bbe8ca7e611a)
 
+### Leave-a-Feedback Interface
+![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/093b4f7d-4928-41bb-b6cc-a188a051d55c)
+
 
 After booking, you'll need to choose your preferred payment method:
 ![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/ce98a1a0-b8fc-4e4d-aaa3-794cb19b5c7c)
 
 
-### Viw Bookings Interface
+### View Bookings Interface
 ![image](https://github.com/duniajaser/Airline-Reservation-and-Management-System-using-Java-and-JavaFX/assets/153684727/7e959575-55b1-47b5-81fa-93ec4592886d)
 
